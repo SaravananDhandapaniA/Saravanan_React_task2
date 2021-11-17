@@ -3,7 +3,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Cart from './Cart';
 import Home from "./Home";
 import {CartProvider} from "react-use-cart";
-//import { useEffect } from 'react/cjs/react.development';
+
 
 
 
