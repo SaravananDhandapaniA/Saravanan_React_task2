@@ -9,7 +9,7 @@ import {CartProvider} from "react-use-cart";
 
 function App() {
 
-  const [products,setProducts] = useState([]);
+//  const [products,setProducts] = useState([]);
 
   useEffect(() => {
     fetchAPI()
@@ -18,7 +18,8 @@ function App() {
   const fetchAPI =async ()=>{
     return fetch('http://localhost:5000/api/rates')
     .then(response => response.json())
-    .then(data => { setProducts(data)
+    .then(data => { 
+      //setProducts(data)
       console.log(data)
     });
   }
